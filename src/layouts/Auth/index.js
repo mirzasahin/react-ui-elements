@@ -7,7 +7,7 @@ const AuthLayout = () => {
   return (
     <div>
       <Menu/>
-        
+      
       <div className='auth-container'>
         <div className='auth-menu'>
           <Link to="/auth">Giriş yap</Link>

@@ -11,6 +11,7 @@ import Login from "./pages/Auth/Login";
 import UserDetails from "./pages/Dashboard/UserDetails";
 import Users from "./pages/Dashboard/Users";
 import Register from "./pages/Auth/Register";
+import Error404 from "./pages/Error404";
 
 function App() {
   return (
@@ -33,7 +34,9 @@ function App() {
             <Route path="register" element={<Register/>}/>
             
           </Route>
-          
+
+          <Route path="*" element={<Error404/>}/>
+
         </Routes>
 
       </BrowserRouter>

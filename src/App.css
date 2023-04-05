@@ -8,3 +8,15 @@ ul, li{
    display: flex;
    column-gap: 3em;
 }
+
+.form > div{
+    margin-bottom: 10px ;
+}
+
+.form > div > label {
+    display: block;
+}
+
+.form > div > input, textarea {
+    padding: 5px;
+}

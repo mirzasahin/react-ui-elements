@@ -8,6 +8,7 @@ const DashboardLayout = () => {
         <Menu/>
         
         <div id="content">
+            <Outlet/>
         </div>
         
     </div>
